@@ -1,0 +1,128 @@
+### Patataprint
+### Configuration
+
+# Lire la documentation en ligne :
+# https://esadpyrenees.github.io/PageTypeToPrint/contenu/
+
+# Le thème à utiliser
+theme: "esadpyrenees"
+
+# Le titre du document
+title: Le journal <br> de bord d'un apprenti codeur
+
+# Le sous-titre éventuel du document
+subtitle: "Comment coder de l'Art ?"
+
+# Le titre courant, si différent du titre du document
+runningtitle: Comment coder de l'art ?
+
+# Votre nom
+name: Nathan Gillet
+
+# L’année, par ex. : 2021 – 2022
+year: 2024 – 2025
+
+# Votre diplôme, par ex. : DNA Design
+diploma: Bac 3 
+
+# Le mention du diplôme, par ex. : Mention Design graphique Multimédia
+mention: Graphisme
+
+# Votre pôle éventuel, par ex. : Pôle Nouveaux médias, ou
+# Pôle Image, édition &amp;<br class="breakprint"> dessin de caractères
+pole:
+
+# Le nom du fichier pdf généré depuis Chrome / Chromium
+# Cf. https://esadpyrenees.github.io/PageTypeToPrint/print/
+pdf: "Impression de mon livre"
+
+# Structure du contenu (= sommaire)
+parts:
+  - title: Preface
+    file: content/text/0.preface.md
+    template: default
+
+  - title: Introduction
+    file: content/text/1.intro.md
+    template: default
+
+  - title: Comment on crée avec du code ?
+    file: content/text/2.chap1.md
+    template: default
+
+  - title: Eh ? Comment on fait bouger des choses ?
+    file: content/text/3.chap2.md
+    template: default
+
+  - title: La musique et le graphisme
+    file: content/text/4.chap3.md
+    template: default
+
+  - title: On fait du Graphisme
+    file: content/text/5.chap4.md
+    template: default
+
+  - title: Échec total
+    file: content/text/6.chap5.md
+    template: default
+
+  - title: La revanche
+    file: content/text/7.chap6.md
+    template: default
+
+  - title: Eh ? Comment on apprend tous ça !
+    file: content/text/8.chap7.md
+    template: default
+
+  - title: Poubelle InDesign !
+    file: content/text/9.chap8.md
+    template: default
+
+  - title: On est à la moitié
+    file: content/text/22.conclu.md
+    template: default
+
+  - title: La suite ? Jury de Janvier
+    file: content/text/10.chap9.md
+    template: default
+    
+  - title: La glandouille
+    file: content/text/11.chap10.md
+    template: default
+
+  - title: Remise en question
+    file: content/text/12.chap11.md
+    template: default
+
+  - title: Coder pour aider à créer
+    file: content/text/13.chap12.md
+    template: default
+
+  - title: GAN - Génération de cartoons
+    file: content/text/14.chap13.md
+    template: default
+
+  - title: On se bouge le cul !
+    file: content/text/15.chap14.md
+    template: default
+
+  - title: C'est partie pour la finale
+    file: content/text/16.chap15.md
+    template: default
+
+  - title: Conclusion générale
+    file: content/text/17.conclugen.md
+    template: default
+    
+  - title: Bibliographie
+    file: content/text/21.biblio.md
+    template: references
+
+  - title: Remerciements
+    file: content/text/27.remerciements.md
+    template: thanks
+
+  - title: Annexes
+    file: content/text/23.annexes.md
+    template: appendices
+
